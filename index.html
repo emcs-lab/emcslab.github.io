@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en" data-base="./">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>EMCS Lab — Eco-friendly Mobility Control & Systems Lab, Chungnam National University</title>
+<meta name="description" content="Eco-friendly Mobility Control & Systems Lab at Chungnam National University. Motor drive control, PMSM torque control, NVH reduction, battery pulse heating, sensorless drives and autonomous mobility.">
+<meta property="og:title" content="EMCS Lab — Eco-friendly Mobility Control & Systems Lab, Chungnam National University">
+<meta property="og:description" content="Eco-friendly Mobility Control & Systems Lab at Chungnam National University. Motor drive control, PMSM torque control, NVH reduction, battery pulse heating, sensorless drives and autonomous mobility.">
+<meta property="og:site_name" content="EMCS Lab, Chungnam National University">
+<link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+<nav class="nav">
+  <div class="wrap">
+    <a class="brand" href="./index.html">
+      <span class="mark"><svg viewBox="0 0 24 24" fill="none" stroke="#E08A52" stroke-width="2.2" stroke-linecap="round"><path d="M2 12h3l2-6 3 12 3-9 2 5 2-2h5"/></svg></span>
+      <span>EMCS LAB<small>Eco-friendly Mobility Control &amp; Systems</small></span>
+    </a>
+    <ul>
+      <li><a href="./research/index.html">Research</a></li>
+      <li><a href="./index.html#team">Team</a></li>
+      <li><a href="./publications/index.html">Publications</a></li>
+      <li><a href="./index.html#news">News</a></li>
+      <li><a href="./index.html#lectures">Lectures</a></li>
+    </ul>
+    <a class="cta" href="./index.html#join">Join Us</a>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">Chungnam National University · School of Mechanical Engineering</div>
+      <h1>Control that makes <em>electric motion</em> quiet, efficient and safe</h1>
+      <p class="lead">The Eco-friendly Mobility Control &amp; Systems Lab designs motor drive and control systems for electric vehicles and robots. From PMSM torque control and NVH reduction to inverter-based battery heating, we build control laws from dynamics models and prove them on real hardware.</p>
+      <div class="btns">
+        <a class="btn primary" href="./research/index.html">Explore Research</a>
+        <a class="btn ghost" href="./index.html#join">Apply · 지원 안내</a>
+      </div>
+    </div>
+    <div class="scope" aria-label="Three-phase current and dq-axis torque, live illustration">
+      <div class="hud"><span>CH1–3 · i<sub>abc</sub> [A]</span><span>f<sub>sw</sub> 10 kHz · ω<sub>e</sub> 2π·60 rad/s</span></div>
+      <canvas id="scope" width="640" height="300"></canvas>
+      <div class="legend"><span><i style="background:#E08A52"></i>i<sub>a</sub></span><span><i style="background:#6FB1E0"></i>i<sub>b</sub></span><span><i style="background:#8FD3A4"></i>i<sub>c</sub></span><span><i style="background:#E7ECF2"></i>T<sub>e</sub> (DOB)</span></div>
+    </div>
+  </div>
+</header>
+
+<div class="ticker" aria-hidden="true">
+  <div class="track">
+    <span>PMSM Torque Control</span><span>Disturbance Observer</span><span>Flux Weakening</span><span>Anti-Jerk Control</span><span>NVH Reduction</span><span>Battery Pulse Heating</span><span>Sensorless FOC</span><span>1-Shunt Current Reconstruction</span><span>eCompressor Control</span><span>Power Conditioning System</span><span>Wireless Charging Alignment</span><span>Autonomous Driving</span>
+    <span>PMSM Torque Control</span><span>Disturbance Observer</span><span>Flux Weakening</span><span>Anti-Jerk Control</span><span>NVH Reduction</span><span>Battery Pulse Heating</span><span>Sensorless FOC</span><span>1-Shunt Current Reconstruction</span><span>eCompressor Control</span><span>Power Conditioning System</span><span>Wireless Charging Alignment</span><span>Autonomous Driving</span>
+  </div>
+</div>
+
+<section class="band" id="news">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><div class="eyebrow">Latest Updates</div><h2>What's new in the lab</h2></div>
+      <a class="more" href="./index.html#news">All updates →</a>
+    </div>
+    <div class="updates">
+      <ul>
+        <li><time>2026.11.24</time><span>Invited talk at the CNU Interdisciplinary Convergence Research Symposium</span><span class="tag">Talk</span></li>
+        <li><time>2026.10.27</time><span>Prof. Kim chairs the ICROS Daejeon-Chungcheong Organized Session at ICCAS 2026</span><span class="tag">Conference</span></li>
+        <li><time>2026.10.14</time><span>Invited talk at CCAT 2026 (CNU Conference of Advanced Technology)</span><span class="tag">Talk</span></li>
+        <li><time>2025</time><span>Paper published in Scientific Reports: DOB-based multiloop feedback for three-phase AC/DC converters</span><span class="tag pub">Publication</span></li>
+      </ul>
+      <ul>
+        <li><time>2026.04</time><span>Jinsoo Park joins as an undergraduate researcher</span><span class="tag">Members</span></li>
+        <li><time>2026.03</time><span>Three new M.S. students join: Jaehyeong Park, Jungyeon Lee, Junseo Choi</span><span class="tag">Members</span></li>
+        <li><time>2026.02</time><span>Graduation — Hyeon-cheol Lee, Junsik Ham, Gangrok Yoo, Mingyoo Seo (M.S.)</span><span class="tag">Members</span></li>
+        <li><time>2025</time><span>Four papers in IEEE Transactions (TIE, TPEL, TCAS-I, TIM)</span><span class="tag pub">Publication</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="band research" id="research">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><div class="eyebrow">Research</div><h2>From the inverter switch to the vehicle body</h2>
+      <p class="lead">Our scope runs from electric motor drive control to vehicle dynamics. Every topic shares one method: a dynamics model, a robust control law, and a hardware test.</p></div>
+      <a class="more" href="./research/index.html">All projects →</a>
+    </div>
+    <div class="rgrid" id="rgrid-home"></div>
+    <div class="facts">
+      <div class="fact"><b>28</b><span>International journal papers</span></div>
+      <div class="fact"><b>11</b><span>Papers as corresponding author</span></div>
+      <div class="fact"><b>6</b><span>Registered patents (KR · US · CN · DE)</span></div>
+      <div class="fact"><b>9</b><span>M.S. alumni in industry &amp; institutes</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="team">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><div class="eyebrow">Team</div><h2>People</h2></div>
+    </div>
+
+    <div class="pi">
+      <div class="photo">photo</div>
+      <div>
+        <h3>Yonghun Kim, Ph.D. <span style="font-weight:500;color:var(--muted)">김용훈</span></h3>
+        <div class="role">Principal Investigator · Associate Professor, School of Mechanical Engineering</div>
+        <p>Yonghun Kim received his B.S., M.S. and Ph.D. in Mechanical Engineering from KAIST, where his doctoral work introduced disturbance observer based robust torque control and a novel flux-weakening method for permanent magnet synchronous motors. Before joining CNU he was a research assistant professor at KAIST's Eco-friendly Smart Vehicle Research Center.</p>
+        <dl class="cv">
+          <div><dt>2025–</dt><dd>Associate Professor, Chungnam National University</dd></div>
+          <div><dt>2021–24</dt><dd>Assistant Professor, Chungnam National University</dd></div>
+          <div><dt>2018–21</dt><dd>Research Assistant Professor, KAIST ESV Research Center</dd></div>
+          <div><dt>2022–</dt><dd>Outside Director, Future EV Co., Ltd.</dd></div>
+          <div><dt>Ph.D.</dt><dd>KAIST, Mechanical Engineering, 2018 (Advisor: Prof. Kyung-Soo Kim)</dd></div>
+          <div><dt>M.S.</dt><dd>KAIST, Mechanical Engineering, 2012</dd></div>
+        </dl>
+        <div class="contact"><span>✉ <b>yonghun.kim@cnu.ac.kr</b></span><span>☏ <b>+82-42-821-5650</b></span><span>Office <b>E4-223</b></span></div>
+      </div>
+    </div>
+
+    <div class="group">Ph.D. Students</div>
+    <div class="mgrid">
+      <div class="member"><div class="photo">photo</div><b>Dongpin Kim 김동빈</b><small>Integrated M.S./Ph.D. · since 2024</small><span class="kw">Motor control · PCS</span></div>
+      <div class="member"><div class="photo">photo</div><b>Hanbyel Sung 성한별</b><small>Ph.D. · since 2025</small><span class="kw">Motor control · Diagnosis</span></div>
+    </div>
+
+    <div class="group">M.S. Students</div>
+    <div class="mgrid">
+      <div class="member"><div class="photo">photo</div><b>Jaehyeong Park 박재형</b><small>M.S. · since 2026</small><span class="kw">Power conditioning system</span></div>
+      <div class="member"><div class="photo">photo</div><b>Jungyeon Lee 이중연</b><small>M.S. · since 2026</small><span class="kw">Sensorless motor control</span></div>
+      <div class="member"><div class="photo">photo</div><b>Junseo Choi 최준서</b><small>M.S. · since 2026</small><span class="kw">Motor inverter · PMSM</span></div>
+    </div>
+
+    <div class="group">Undergraduate Researchers</div>
+    <div class="mgrid">
+      <div class="member"><div class="photo">photo</div><b>Donghyeon Park 박동현</b><small>Joined Jul. 2025</small></div>
+      <div class="member"><div class="photo">photo</div><b>Minhyuk Park 박민혁</b><small>Joined Feb. 2026</small></div>
+      <div class="member"><div class="photo">photo</div><b>Jutae Park 박주태</b><small>Joined Feb. 2026</small></div>
+      <div class="member"><div class="photo">photo</div><b>Jinsoo Park 박진수</b><small>Joined Apr. 2026</small></div>
+    </div>
+
+    <div class="group">Alumni</div>
+    <div class="alumni">
+      <ul>
+        <li><span>M.S. 2024</span> Gihyeon Nam 남기현 <span>LS Electric</span></li>
+        <li><span>M.S. 2025</span> Hyunho Ye 예현호 <span>KIMM</span></li>
+        <li><span>M.S. 2025</span> Hyun-il Lee 이현일 <span>Hyundai Motor</span></li>
+        <li><span>M.S. 2025</span> Ga-eun Sin 신가은 <span>KAERI</span></li>
+      </ul>
+      <ul>
+        <li><span>M.S. 2026</span> Hyeon-cheol Lee 이현철 <span>Rainbow Robotics</span></li>
+        <li><span>M.S. 2026</span> Junsik Ham 함준식 <span>Rainbow Robotics</span></li>
+        <li><span>M.S. 2026</span> Gangrok Yoo 유강록 <span>Hyundai Motor</span></li>
+        <li><span>M.S. 2026</span> Mingyoo Seo 서민규 <span>KIA</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="band pubs" id="pubs-home">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><div class="eyebrow">Publications</div><h2>Recent journal papers</h2></div>
+      <a class="more" href="./publications/index.html">All publications →</a>
+    </div>
+    <ul class="pubhome" id="pubhome"></ul>
+  </div>
+</section>
+
+<section class="band join" id="join">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">Join Us</div>
+      <h2 style="margin:10px 0 26px">Build the drives behind the next generation of EVs and robots</h2>
+      <div class="steps">
+        <div class="step"><span class="n">UG</span><div><b>Undergraduate Researcher</b><p>CNU mechanical engineering students who want hands-on experience with inverters, DSP firmware and motor test benches before deciding on graduate study.</p></div></div>
+        <div class="step"><span class="n">MS</span><div><b>M.S. / Integrated Program</b><p>Full project ownership from simulation (MATLAB/Simulink, PSIM) to DSP implementation and dynamometer testing, often with industry partners.</p></div></div>
+        <div class="step"><span class="n">PhD</span><div><b>Ph.D.</b><p>Deep work on robust control theory applied to real electric drives, with support for international conference travel and journal publication.</p></div></div>
+      </div>
+    </div>
+    <div class="apply">
+      <h3>How to apply</h3>
+      <p>Send a short e-mail with your CV, transcript and one paragraph on what you want to build. Our alumni are now at Hyundai Motor, KIA, LS Electric, Rainbow Robotics, KIMM and KAERI.</p>
+      <div class="mail"><span id="mailtxt">yonghun.kim@cnu.ac.kr</span><button type="button" id="copybtn">copy</button></div>
+      <p style="margin-top:18px;font-size:13px">Lab visits are welcome. Office E4-223, Engineering Building 4, Chungnam National University.</p>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="lectures" style="padding-block:56px;border-top:1px solid var(--line)">
+  <div class="wrap">
+    <div class="sec-head" style="margin-bottom:20px"><div><div class="eyebrow">Lectures</div><h2>Courses</h2></div></div>
+    <div class="alumni">
+      <ul>
+        <li>Dynamics <span>Undergraduate · Fall</span></li>
+        <li>Project Information Technology &amp; Automation (MATLAB) <span>Undergraduate · Fall</span></li>
+      </ul>
+      <ul>
+        <li>Robust Control (Multivariable Feedback Control) <span>Graduate · Fall</span></li>
+        <li>Capstone Design Advising <span>Undergraduate</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <div class="brand" style="color:var(--fg)"><span class="mark"><svg viewBox="0 0 24 24" fill="none" stroke="#E08A52" stroke-width="2.2" stroke-linecap="round"><path d="M2 12h3l2-6 3 12 3-9 2 5 2-2h5"/></svg></span><span>EMCS LAB</span></div>
+        <p style="margin-top:14px;max-width:46ch">Eco-friendly Mobility Control &amp; Systems Laboratory<br>School of Mechanical Engineering, Chungnam National University<br>(34134) Room 223, Engineering Building 4 (E4), 99 Daehak-ro, Yuseong-gu, Daejeon, Korea</p>
+        <p style="margin-top:12px;font-family:var(--mono);font-size:13px">yonghun.kim@cnu.ac.kr · +82-42-821-5650</p>
+      </div>
+      <div><div class="group" style="margin-top:0">Menu</div><ul><li><a href="./research/index.html">Research</a></li><li><a href="./index.html#team">Team</a></li><li><a href="./publications/index.html">Publications</a></li><li><a href="./index.html#news">News</a></li><li><a href="./index.html#lectures">Lectures</a></li><li><a href="./index.html#join">Join Us</a></li></ul></div>
+      <div><div class="group" style="margin-top:0">Links</div><ul><li><a href="https://me.cnu.ac.kr" target="_blank" rel="noopener">CNU Mechanical Engineering ↗</a></li><li><a href="https://www.cnu.ac.kr" target="_blank" rel="noopener">Chungnam National University ↗</a></li><li><a href="https://emcslab.imweb.me" target="_blank" rel="noopener">Current lab site ↗</a></li></ul></div>
+    </div>
+    <div class="copy">© 2026 Eco-friendly Mobility Control &amp; Systems Lab, Chungnam National University. All rights reserved.</div>
+  </div>
+</footer>
+<script src="./data/research.js"></script>
+<script src="./data/publications.js"></script>
+<script src="./assets/site.js"></script>
+</body>
+</html>
